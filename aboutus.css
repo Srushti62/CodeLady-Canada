@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: rgba(255, 165, 0, 0.6);
+}
+
+.container{
+    height: 92vh;
+}
+
+nav{
+    width: 100%;
+    height: 12vh;
+    color: white;
+    display: block;
+    background-color: rgba(10, 10, 10, 1);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav .logo{
+    width: 100%;
+    height: 6vh;
+    font-size: 18px;
+    background-color: rgba(10, 10, 10, 1);
+    text-align: center;
+    font-weight: 900;
+    padding-top: 3px;
+}
+
+nav .logo h1 a{
+    background: linear-gradient(45deg,orange, red);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    text-decoration: none;
+}
+
+nav .logo h1 a::after{
+    content: "CANADA";
+    font-size: 9px;
+    background: linear-gradient(45deg,orange, red);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+nav .menu{
+    border-top: 1px solid white;
+    width: 50%;
+    margin: auto;
+    height: 6vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu a{
+    text-decoration: none;
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+    background: linear-gradient(45deg,orange, red);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+}
+
+nav .menu a:nth-child(3){
+    color: rgba(173, 255, 47, 0.8);
+}
+
+nav .menu a:hover{
+    color: rgba(173, 255, 47, 0.8);
+}
+nav .menu a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 120%;
+    width: 0%;
+    height: 2px;
+    transition: all 0.5s linear;
+}
+
+nav .menu a:hover::before{
+    width: 100%;
+    background-color: rgba(173, 255, 47, 0.8);
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    background-image: url(Images/coding.jpg);
+    background-size: cover;
+}
+
+.type{
+    width: 62%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.static{
+    font-size: 50px;
+    color:red;
+    line-height: 50px;
+    font-weight: 800;
+}
+
+.dynamic{
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    line-height: 50px;
+}
+
+.skills{
+    text-align: center;
+    color: orange;
+}
+
+.down{
+    text-decoration: none;
+    color:white;
+}
+
+.gridImage{
+    background-image: url(Images/coding.jpg);
+    background-size: 100% 100%;
+}
+
+.grid{
+    position: sticky;
+    /* height: 620px; */
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(4, 120px);
+    gap: 15px;
+    padding: 20px;
+    /* margin: 20px; */
+}
+
+.div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10,.div11,.div12,.div13,.div14,.div15,.div16{
+    background-color: rgb(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 18px;
+    margin: 8px;
+    display: grid;
+    text-align:center;
+    padding: 15px;
+    display: inline-block;
+    box-shadow: 2px 2px 2px 2px rgb(204, 197, 197);
+    animation: light 2s ease-out 3;
+}
+
+i{
+    margin-bottom: 10px;
+}
+
+@keyframes light {
+    0%{transform: scale(0);}
+    70%{transform: scale(1.05);}
+    100%{transform: scale(1);}
+}
+
+footer{
+    width: 100%;
+    height: 4vh;
+    background: rgba(10, 10, 10, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    background: linear-gradient(45deg,orange, red);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}

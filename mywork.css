@@ -1,0 +1,957 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+nav{
+    width: 100%;
+    height: 12vh;
+    color: white;
+    display: block;
+    background-color: rgba(10, 10, 10, 1);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav .logo{
+    width: 100%;
+    height: 6vh;
+    font-size: 18px;
+    background-color: rgba(10, 10, 10, 1);
+    text-align: center;
+    font-weight: 900;
+    padding-top: 3px;
+}
+
+nav .logo h1 a{
+    background: linear-gradient(45deg,orange, red);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    text-decoration: none;
+}
+
+nav .logo h1 a::after{
+    content: "CANADA";
+    font-size: 9px;
+    background: linear-gradient(45deg,orange, red);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+nav .menu{
+    border-top: 1px solid white;
+    width: 50%;
+    margin: auto;
+    height: 6vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu a{
+    text-decoration: none;
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+    background: linear-gradient(45deg,orange, red);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+}
+
+nav .menu a:nth-child(2){
+    color: rgba(173, 255, 47, 0.8);
+}
+
+nav .menu a:hover{
+    color: rgba(173, 255, 47, 0.8);
+}
+nav .menu a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 120%;
+    width: 0%;
+    height: 2px;
+    transition: all 0.5s linear;
+}
+
+nav .menu a:hover::before{
+    width: 100%;
+    background-color: rgba(173, 255, 47, 0.8);
+}
+
+.container{
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container .main{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.upper{
+    margin-top: 30px;
+}
+
+.container .Mid{ 
+    width: 75%;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .signUp{
+    width: 70%;
+    height: 600px;
+    display: flex;
+    margin: 40px auto 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.signUp{
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 8px 8px orangered;
+}
+
+.signUp .leftSide{
+    width: 50%;
+    height: 100%;
+    background: url("Images/SignUp.jpg");
+    background-size: 100% 100%;
+}
+
+.rightSide form{
+    width: 95%;
+    margin: auto;
+    background-color: rgb(255, 137, 94);
+    padding: 30px;
+    margin-top: 15px;
+}
+
+.signUp .rightSide{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(32, 31, 31);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    display: block;
+}
+
+.rightSide h1{
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+.rightSide form label{
+    font-size: 20px;
+    display: block;
+    margin-top: 1px;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+}
+
+.rightSide form input{
+    font-size: 18px;
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px 30px 10px 20px;
+    text-align: left;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+}
+
+.rightSide form input:focus{
+    outline: 1px solid black;
+}
+.rightSide form input::placeholder{
+    font-size: 16px;
+}
+
+.rightSide form input:focus::placeholder{
+    color:transparent;
+}
+
+.rightSide form .submit{
+    width: 90%;
+    color: white;
+    text-align: center;
+    margin: 15px auto 0px auto;
+    letter-spacing: 1.5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    box-shadow: 2px 2px 1px gray;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+.extraSignUp{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 25px;
+    color: white;
+}
+
+.extraSignUp button{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 120px;
+    padding: 8px;
+    margin: 15px 8px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
+.extraSignUp p, .extraSignUp h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+#fb{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #3b5998;
+}
+
+#gmail{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #e23323;
+}
+
+.clipMain{
+    position: relative;
+    width: 70%;
+    height: 500px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clipMain .clip{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.clip1{
+    background: url("Images/Imagination.jpg");
+    background-size: cover;
+    clip-path: polygon(0 0, 55% 0, 20% 100%, 0 100%);
+}
+.clip2{
+    background: url("Images/Opportunities.jpg");
+    background-size: cover;
+    clip-path: polygon(55% 0,100% 0,45% 100%, 20% 100%);
+}
+.clip3{
+    background: url("Images/Learn.jpg");
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
+}
+
+.clipMain:hover .clip{
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+
+.clipMain .clip:hover{
+    visibility: visible;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.glassLogin1{
+    width: 30%;
+    height: 600px;
+    text-shadow: 1px 1px black;
+    background: url("Images/Login.jpg");
+    background-size: 100% 100%;
+    border-radius: 45px;
+    padding: 40px;
+    box-shadow: 2px -2px 10px gray;
+    margin: 50px auto;
+    color:silver;
+    font-weight: 800;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.glassLogin1 h1{
+    display: block;
+    font-size: 40px;
+    text-shadow: 10px 10px 25px black;
+}
+
+.glassLogin1 form input{
+    font-size: 16px;
+    line-height: 20px;
+    width: 80%;
+    display: block;
+    margin: 30px auto;
+    text-align: left;
+    border-radius: 20px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid silver;
+    color: silver;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+}
+
+.glassLogin1 form input::placeholder{
+    color: silver;
+    font-family: 'Be Vietnam Pro', 'FontAwesome', sans-serif;
+}
+
+.glassLogin1 form input:focus{
+    outline: none;
+    color: silver;
+}
+
+.glassLogin1 form input:focus::placeholder{
+    color:transparent;  
+}
+
+.glassLogin1 form .remember{
+    display:inline-flex;
+    width: 140px;
+    height: 25px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 800;
+    white-space: nowrap;
+    cursor: pointer;
+    accent-color: silver;
+}
+
+.glassLogin1 form .glassSubmit1{
+    width: 80%;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto ;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px silver;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 900;
+} 
+
+.glassLogin1 form h4{
+    margin: 80px;
+    cursor: pointer;
+}
+
+.neon a{
+    position: relative;
+    padding: 10px 30px;
+    margin: 0 25px;
+    color: cyan;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.neon a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid cyan;
+    border-left: 2px solid cyan;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.neon a:hover::before{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.neon a:hover{
+    background: cyan;
+    color: black;
+    box-shadow: 0 0 30px cyan;
+    transition-delay: 0.4s;
+    overflow: hidden;
+    font-weight: 700;
+}
+
+.neon a:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid cyan;
+    border-right: 2px solid cyan;
+    transition:  0.5s;
+    overflow: hidden;
+}
+
+.neon a:hover::after{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.neon a:nth-child(1){
+    filter: hue-rotate(115deg);
+}
+
+.neon a:nth-child(3){
+    filter: hue-rotate(270deg);
+}
+
+.twoCornerBorderButton{
+    position: relative;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    background-color: rgb(70, 70, 184);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    font-weight: 900;
+}
+
+.twoCornerBorderButton:hover{
+    box-shadow: 0px 0px 2px 2px rgb(156, 138, 138);
+}
+
+.twoCornerBorderButton::before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid rgb(70,70,184);
+    border-left: 2px solid rgb(70,70,184);
+    transition: all 0.5s linear;
+}
+
+.twoCornerBorderButton:hover::before,
+.twoCornerBorderButton:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s linear;
+}
+
+.twoCornerBorderButton::after{
+    content: '';
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    width: 20px;
+    height: 20px;
+    border-right: 2px solid rgb(70,70,184);
+    border-bottom: 2px solid rgb(70,70,184);
+    transition: all 0.5s linear;
+}
+
+.clipDiv{
+    margin: 30px auto;
+}
+
+.clipButton{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    line-height: 100px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    background-color: rgb(70, 70, 184);
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border: none;
+    font-weight: 900;
+    clip-path: ellipse(5% 50% at 50% 50%);
+}
+
+.clipButton:hover{
+    box-shadow: 0px 0px 2px 2px rgb(156, 138, 138);
+    clip-path: circle(150% at 100% 0);
+}
+
+.clipButton::before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid rgb(70,70,184);
+    border-left: 2px solid rgb(70,70,184);
+    transition: all 0.5s linear;
+}
+
+.clipButton:hover::before,
+.clipButton:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s linear;
+}
+
+.clipButton::after{
+    content: '';
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    width: 20px;
+    height: 20px;
+    border-right: 2px solid rgb(70,70,184);
+    border-bottom: 2px solid rgb(70,70,184);
+    transition: all 0.5s linear;
+}
+    
+.fallenBrickButton{
+    position: relative;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    transition: all 0.5s linear;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.fallenBrickButton:hover{
+    color: black;
+    font-weight: 900;
+}
+
+.fallenBrickButton::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: yellowgreen;
+    z-index: -1;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    transition: all 1s;
+}
+
+.fallenBrickButton:hover::before{
+    transform: rotate(0deg);
+}
+
+.leftToRightButton{
+    position: relative;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    transition: all 0.5s linear;
+    background-color: yellowgreen;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.leftToRightButton::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: -1;
+    transform: translateX(180deg);
+    transition: all 1s;
+    color: black;   
+}
+
+.leftToRightButton:hover{
+    color: black;
+}
+
+.leftToRightButton:hover::before{
+    transform: translateX(100%);
+}
+
+.progressiveButton{
+    position: relative;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid red;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    color: white;
+    font-size: 20px;
+}
+    
+.progressiveButton::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+
+.progressiveButton:hover:before{
+    animation: animate1 1s linear forwards;
+}
+
+@keyframes animate1 {
+    0%{
+        width: 0;
+        height: 0;
+        border-top-color: white;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    50%{
+        width: 100%;
+        height: 0;
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+}
+.progressiveButton::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+
+.progressiveButton:hover:after{
+    animation: animate2 1s linear forwards;
+    animation-delay: 1s;
+}
+
+@keyframes animate2 {
+    0%{
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: white;
+    }
+    50%{
+        width: 0;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: white;
+        border-left-color: white;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: white;
+        border-left-color: white;
+    }
+}
+
+.boxShadowButton{
+    position: relative;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(50, 50, 207);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: white;
+}
+
+.boxShadowButton:hover{
+    box-shadow: 0 0 2px 2px white;
+    background-color: rgba(50, 50, 207, 0.5);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.foldButton{
+    position: relative;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    background-color: red;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+.foldButton:hover::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    border-width: 18px;
+    border-style: solid;
+    border-color: black black rgba(255,255,255,0.4) rgba(255,255,255,0.4) ;
+}
+
+.normalHoverButton{
+    position: relative;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    background-color: yellowgreen;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    z-index: 1;
+    transition: all 0.5s linear;
+    overflow: hidden;
+}
+
+.normalHoverButton::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s linear;
+    transform: translateX(-100%);
+}
+
+.normalHoverButton:hover{
+    color: white;
+    background: orangered;
+    transition: all 0.8s linear;
+}
+
+.normalHoverButton:hover::before{
+    transform: translateX(0);
+    z-index: -1;
+}
+
+.gradientBackgroundButton{
+    width: 1200px;
+    background-image: linear-gradient(115deg, red, green, yellow, blue, orange, purple, red);
+    text-align: center;
+    position: relative;
+    color: white;
+    background-color: yellow;
+    text-decoration: none;
+    display: block;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-size: 20px;
+    overflow: hidden;
+    animation: gradi 1.5s linear infinite;
+    cursor: auto;
+}
+
+.gradientBackgroundButton span{
+    margin: 3px;
+    display: block;
+    background: black;
+    padding: 14px 0;
+    border-radius: 3px;
+}
+
+@keyframes gradi {
+    0%{
+        background-position: 0px;
+    }
+    20%{
+        background-position: -240px;
+    }
+    40%{
+        background-position: -480px;
+    }
+    60%{
+        background-position: -720px;
+    }
+    80%{
+        background-position: -960px;
+    }
+    100%{
+        background-position: -1200px;
+    }
+}
+
+.whiteGreen{
+    position: relative;
+    cursor: pointer;
+    width: 78%;
+    margin: auto;
+    font-size: 40px;
+    height: 150px;
+}
+
+.whiteGreen h1{
+    position: absolute;
+}
+
+.whiteGreen h1:first-child{
+    color: white;
+}
+.whiteGreen h1:nth-child(2){
+    color: green;
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+    background-color: black;
+}
+
+.whiteGreen h1:nth-child(2):hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.whiteGreen h1:first-child:hover ~ h1{
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.thanks{
+    margin: 30px auto;
+}
+
+.products{
+    font-family: 'Comforter', cursive;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    position: relative;
+    font-size: 60px; 
+}
+
+.products::before{
+    content: "";
+    position: absolute;
+    width: 20vw;  
+    border-bottom: 5px solid orangered;
+    top: -28%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.products::after{
+    content: "";
+    width: 20vw;  
+    position: absolute; 
+    border-bottom: 5px solid orangered;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer{
+    width: 100%;
+    height: 4vh;
+    background: rgba(10, 10, 10, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    background: linear-gradient(45deg,orange, red);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
