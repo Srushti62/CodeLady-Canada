@@ -147,13 +147,17 @@ nav .menu a:hover::before{
     background-size: 100% 100%;
 }
 
+.container1{
+    display: grid;
+    place-items: center;
+}
+
 .grid{
     position: sticky;
     /* height: 620px; */
     width: 80%;
     margin: auto;
     display: grid;
-    place-items: center;
     grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(4, 120px);
     gap: 15px;
