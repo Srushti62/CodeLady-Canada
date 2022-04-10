@@ -286,12 +286,12 @@ nav .menu a:hover::before{
 }
 .clip2{
     background: url("Images/Opportunities.avif");
-    background-size: cover;
+    background-size: 100% 100%;
     clip-path: polygon(55% 0,100% 0,45% 100%, 20% 100%);
 }
 .clip3{
     background: url("Images/Learn.avif");
-    background-size: cover;
+    background-size: 100% 100%;
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
 }
 
