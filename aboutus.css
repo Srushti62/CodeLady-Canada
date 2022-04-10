@@ -147,6 +147,7 @@ nav .menu a:hover::before{
     background-size: cover;
     display: grid;
     place-items: center;
+    margin: auto;
 }
 
 .grid{
