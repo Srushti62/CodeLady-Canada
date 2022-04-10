@@ -145,9 +145,6 @@ nav .menu a:hover::before{
 .gridImage{
     background-image: url(Images/coding.avif);
     background-size: cover;
-}
-
-.container1{
     display: grid;
     place-items: center;
 }
