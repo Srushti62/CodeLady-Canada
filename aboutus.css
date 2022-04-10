@@ -147,7 +147,6 @@ nav .menu a:hover::before{
     background-size: cover;
     display: grid;
     place-items: center;
-    margin: auto;
 }
 
 .grid{
@@ -156,7 +155,6 @@ nav .menu a:hover::before{
     width: 80%;
     margin: auto;
     display: grid;
-    place-items: center;
     grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(4, 120px);
     gap: 15px;
