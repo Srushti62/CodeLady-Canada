@@ -880,6 +880,8 @@ nav .menu a:hover::before{
     margin: auto;
     font-size: 40px;
     height: 150px;
+    display: grid;
+    place-items: center;
 }
 
 .whiteGreen h1{
