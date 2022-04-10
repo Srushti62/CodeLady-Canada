@@ -145,7 +145,7 @@ nav .menu a:hover::before{
 .signUp .leftSide{
     width: 50%;
     height: 100%;
-    background: url("Images/SignUp.jpg");
+    background: url("Images/SignUp.avif");
     background-size: 100% 100%;
 }
 
@@ -280,17 +280,17 @@ nav .menu a:hover::before{
 }
 
 .clip1{
-    background: url("Images/Imagination.jpg");
+    background: url("Images/Imagination.avif");
     background-size: cover;
     clip-path: polygon(0 0, 55% 0, 20% 100%, 0 100%);
 }
 .clip2{
-    background: url("Images/Opportunities.jpg");
+    background: url("Images/Opportunities.avif");
     background-size: cover;
     clip-path: polygon(55% 0,100% 0,45% 100%, 20% 100%);
 }
 .clip3{
-    background: url("Images/Learn.jpg");
+    background: url("Images/Learn.avif");
     background-size: cover;
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
 }
@@ -308,7 +308,7 @@ nav .menu a:hover::before{
     width: 30%;
     height: 600px;
     text-shadow: 1px 1px black;
-    background: url("Images/Login.jpg");
+    background: url("Images/Login.avif");
     background-size: 100% 100%;
     border-radius: 45px;
     padding: 40px;
