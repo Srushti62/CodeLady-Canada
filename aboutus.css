@@ -106,7 +106,7 @@ nav .menu a:hover::before{
 .container{
     display: grid;
     place-items: center;
-    background-image: url(Images/coding.jpg);
+    background-image: url(Images/coding.avif);
     background-size: cover;
 }
 
