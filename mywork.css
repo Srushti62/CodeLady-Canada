@@ -281,7 +281,7 @@ nav .menu a:hover::before{
 
 .clip1{
     background: url("Images/Imagination.avif");
-    background-size: cover;
+    background-size: 100% 100%;
     clip-path: polygon(0 0, 55% 0, 20% 100%, 0 100%);
 }
 .clip2{
