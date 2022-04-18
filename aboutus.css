@@ -103,6 +103,13 @@ nav .menu a:hover::before{
     background-color: rgba(173, 255, 47, 0.8);
 }
 
+.burger{
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .container{
     display: grid;
     place-items: center;
@@ -236,6 +243,23 @@ footer .copyright{
     }
 }
 @media (max-width: 800px) {
+    .header{
+        position: relative;
+    }
+    .burger{
+        display: block;
+        top: 0;
+        padding-right: 5vw;
+        text-align: right;
+        z-index: 2;
+        color: orangered;
+    }
+    #close{
+        display: none;
+    }
+    nav{
+        height: 6vh;
+    }
     .menu{
         visibility: hidden;
     }
