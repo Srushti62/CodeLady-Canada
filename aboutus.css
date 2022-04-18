@@ -246,9 +246,14 @@ footer .copyright{
     .header{
         position: relative;
     }
+    .logo{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        gap: 20vw;
+    }
     .burger{
-        display: block;
-        top: 0;
+        display:block;
         padding-right: 5vw;
         text-align: right;
         z-index: 2;
