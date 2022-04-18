@@ -243,13 +243,12 @@ footer .copyright{
         background-size: 100% 100%;
     }
     .grid{
-        padding: 30px;
         width: 80%;
         margin: auto;
         display: grid;
         place-content: center;
-        grid-template-columns: 10em;
-        grid-template-rows: 10em;
+        grid-template-columns: repeat(2,9.5em);
+        grid-template-rows: repeat(2,9.5em);
     }
     .type{
         width: 80%;
