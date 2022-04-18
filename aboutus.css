@@ -242,7 +242,6 @@ footer .copyright{
     .gridImage, .container{
         background-size: 100% 100%;
     }
-
     .grid{
         padding: 30px;
         width: 80%;
@@ -255,5 +254,8 @@ footer .copyright{
     .static, .dynamic{
         font-size: 0.8em;
         line-height: 0.8em;
+    }
+    footer{
+        margin: 10vw;
     }
 }
