@@ -251,9 +251,12 @@ footer .copyright{
         grid-template-columns: 10em;
         grid-template-rows: 10em;
     }
+    .type{
+        width: 85%;
+    }
     .static, .dynamic{
-        font-size: 0.8em;
-        line-height: 0.8em;
+        font-size: 1em;
+        line-height: 1em;
     }
     footer{
         padding: 5vw 15vw;
