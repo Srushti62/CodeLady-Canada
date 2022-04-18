@@ -253,6 +253,7 @@ footer .copyright{
         gap: 20vw;
     }
     .burger{
+        font-size: 20px;
         display:block;
         padding-right: 5vw;
         text-align: right;
