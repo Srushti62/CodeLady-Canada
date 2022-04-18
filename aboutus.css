@@ -255,8 +255,8 @@ footer .copyright{
         width: 85%;
     }
     .static, .dynamic{
-        font-size: 1em;
-        line-height: 1em;
+        font-size: 1.2em;
+        line-height: 1.2em;
     }
     footer{
         padding: 5vw 15vw;
