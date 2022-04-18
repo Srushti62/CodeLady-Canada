@@ -237,12 +237,7 @@ footer .copyright{
 }
 @media (max-width: 800px) {
     .menu{
-        display: none;
-        height: 0vh;
         visibility: hidden;
-    }
-    .nav{
-        height: 6vh;
     }
     .gridImage, .container{
         background-size: 100% 100%;
