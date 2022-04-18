@@ -119,17 +119,17 @@ nav .menu a:hover::before{
 }
 
 .static{
-    font-size: 50px;
+    font-size: 3.2em;
     color:red;
-    line-height: 50px;
+    line-height: 3.2em;
     font-weight: 800;
 }
 
 .dynamic{
     font-weight: 700;
-    font-size: 50px;
+    font-size: 3.2em;
     color: white;
-    line-height: 50px;
+    line-height: 3.2em;
 }
 
 .skills{
@@ -145,8 +145,6 @@ nav .menu a:hover::before{
 .gridImage{
     background-image: url(Images/coding.avif);
     background-size: cover;
-    display: grid;
-    place-items: center;
 }
 
 .grid{
@@ -155,6 +153,7 @@ nav .menu a:hover::before{
     width: 80%;
     margin: auto;
     display: grid;
+    place-content: center;
     grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(4, 120px);
     gap: 15px;
@@ -204,4 +203,53 @@ footer .copyright{
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
+}
+
+@media (max-width: 1355px) {
+    .grid{
+        padding: 30px;
+        display: grid;
+        place-content: center;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .div16{
+        grid-row-start: 6;
+        grid-column-start: 2;
+    }
+    .static, .dynamic{
+        font-size: 2.8em;
+        line-height: 2.8em;
+    }
+}
+@media (max-width: 1176px) {
+    .grid{
+        padding: 30px;
+        width: 80%;
+        margin: auto;
+        display: grid;
+        place-content: center;
+        grid-template-columns: repeat(2,300px);
+    }
+    .static, .dynamic{
+        font-size: 2em;
+        line-height: 2em;
+    }
+}
+@media (max-width: 800px) {
+    .menu{
+        visibility: hidden;
+    }
+    .grid{
+        padding: 30px;
+        width: 80%;
+        margin: auto;
+        display: grid;
+        place-content: center;
+        grid-template-columns: 10em;
+        grid-template-rows: 10em;
+    }
+    .static, .dynamic{
+        font-size: 0.8em;
+        line-height: 0.8em;
+    }
 }
