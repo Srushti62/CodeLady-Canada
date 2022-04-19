@@ -1013,7 +1013,7 @@ footer .copyright {
     height: 20vh;
     font-size: 2rem;
     padding: 1rem;
-    margin: 10px auto;
+    margin-bottom: 20px;
   }
   .products::before {
     top: -10%;
