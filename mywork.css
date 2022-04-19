@@ -933,8 +933,8 @@ nav .menu a:hover::before{
 
 .products::after{
     content: "";
-    width: 20vw;  
     position: absolute; 
+    width: 20vw;  
     border-bottom: 5px solid orangered;
     bottom: -30%;
     left: 50%;
@@ -962,6 +962,9 @@ footer .copyright{
 }
 
 @media (max-width: 800px){
+.gradientBackgroundButton{
+    animation: gradi 2.5s linear infinite;
+}
     .clipMain{
         height: 30vh;
         outline: 2px solid white;    
@@ -972,8 +975,6 @@ footer .copyright{
         font-size: 2rem;
         padding: 1rem;
     }
-
-
     footer{
         padding: 5vw 15vw;
     }
