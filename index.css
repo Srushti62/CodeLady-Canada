@@ -261,3 +261,12 @@ footer .copyright{
     color: transparent;
     -webkit-background-clip: text;
 }
+
+@media(max-width: 800px){
+    section{
+        font-size: 80%;
+    }
+    footer{
+        padding: 5vw 15vw;
+    }
+}
