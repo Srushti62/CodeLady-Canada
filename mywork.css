@@ -648,6 +648,7 @@ nav .menu a:hover::before {
   width: 150px;
   height: 60px;
   line-height: 60px;
+  background-color: red;
   text-decoration: none;
   text-align: center;
   border: 2px solid red;
