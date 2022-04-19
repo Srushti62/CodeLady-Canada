@@ -249,34 +249,22 @@ footer .copyright{
     .logo{
         width: 100%;
         display: flex;
-        /* justify-content:space-between;
         align-items: center;
-        justify-items: center; */
-        /* justify-content:space-between; */
-        align-items: center;
-        align-self: right;
-        align-content: right;
-        justify-items: right;
-        justify-self: right;
         justify-content: center;
         padding: 0 3vw;
     }
-
-    .active{
-        transform: translateX(50%);
+    .menu.active{
+        transform: translateX(100%);
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+        height: 100vh;
+        z-index: 100;
     }
-
-    /* .logo h1 a{
-        align-items: left;
-        text-align: left;
-    } */
-    /* .logo .burger{
-        text-align: right;
-        align-items: right;
-    } */
     .burger{
         font-size: 20px;
         display:block;
@@ -286,6 +274,7 @@ footer .copyright{
     }
     #close{
         display: none;
+        color: orangered;
     }
     nav{
         height: 6vh;
@@ -296,7 +285,7 @@ footer .copyright{
         position: absolute;
         top: 0;
         left: 0;
-        background: green;
+        background: black;
         display: flex;
         justify-content: center;
         align-items: center;

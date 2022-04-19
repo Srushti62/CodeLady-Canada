@@ -994,22 +994,8 @@ footer .copyright {
   .gradientBackgroundButton {
     animation: gradi 4s linear infinite;
   }
-  .leftSide{
-      display: none;
-  }
-  .rightSide{
-      visibility: hidden;
+  .container .signUp{
       display:none;
-      width: 200%;
-  }
-  .extraSignUp{
-      display: none;
-  }
-  .signUp{
-      display: none;
-      width: 90%;
-      /* display: flex;
-      flex-direction: column; */
   }
   .main.upper, .main.Mid{
       display: flex;
