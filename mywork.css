@@ -894,8 +894,8 @@ nav .menu a:hover::before {
   cursor: pointer;
   width: 78%;
   margin: auto;
-  font-size: 2.5rem;
-  height: 9.375rem;
+  font-size: 2vw;
+  height: 5vh;
 }
 
 .whiteGreen h1 {
@@ -929,7 +929,7 @@ nav .menu a:hover::before {
   text-align: center;
   letter-spacing: 5px;
   position: relative;
-  font-size: 3.75rem;
+  font-size: 3.75vw;
 }
 
 .products::before {
@@ -987,10 +987,6 @@ footer .copyright {
     .glassLogin1{
         width: 80%;
     }
-  .whiteGreen {
-    font-size: 65%;
-    height: 75%;
-  }
   .gradientBackgroundButton {
     animation: gradi 4s linear infinite;
   }
@@ -1015,18 +1011,6 @@ footer .copyright {
     height: 30vh;
     outline: 2px solid white;
     outline-offset: 2px;
-  }
-  .products {
-    height: 20vh;
-    font-size: 2rem;
-    padding: 1rem;
-    margin-bottom: 20px;
-  }
-  .products::before {
-    top: -10%;
-  }
-  .products::after {
-    bottom: -10%;
   }
   footer {
     padding: 5vw 15vw;

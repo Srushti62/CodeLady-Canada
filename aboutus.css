@@ -243,41 +243,15 @@ footer .copyright{
     }
 }
 @media (max-width: 800px) {
-    .header{
+    nav{
         position: relative;
     }
     .logo{
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: right;
         padding: 0 3vw;
-    }
-    .menu.active{
-        transform: translateX(100%);
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 5vh;
-        height: 100vh;
-        z-index: 100;
-    }
-    .burger{
-        font-size: 20px;
-        display:block;
-        padding-right: 5vw;
-        z-index: 2;
-        color: orangered;
-    }
-    #close{
-        display: none;
-        color: orangered;
-    }
-    nav{
-        height: 6vh;
     }
     .menu{
         width: 100%;
@@ -296,7 +270,40 @@ footer .copyright{
         visibility: hidden;
         pointer-events: none;
     }
-    
+    #close{
+        display: none;
+        color: orangered;
+        z-index: 100;
+    }
+    .burger{
+        font-size: 20px;
+        display:block;
+        padding-right: 5vw;
+        z-index: 100;
+        color: orangered;
+    }
+    .active .menu{
+        transform: translateX(100%);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+        height: 100vh;
+        z-index: 100;
+    }
+    .active .menu .burger #open{
+        display: none;
+    }
+    .active .menu .burger #close{
+        display: block;
+        z-index: 100;
+    }
+    nav{
+        height: 6vh;
+    }
     .gridImage, .container{
         background-size: 100% 100%;
     }

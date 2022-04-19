@@ -35,12 +35,13 @@
 
   <body>
     <header>
-      <nav class="header">
+      <nav>
         <div class="logo">
           <h1><a href="index.html">CodeLady</a></h1>
           <div class="burger">
-            <i class="fa-solid fa-bars" id="open"></i>
-            <i class="fa-solid fa-xmark" id="close"></i></div>
+            <i class="fa-solid fa-bars" id="open" class="open1"></i>
+            <i class="fa-solid fa-xmark" id="close" class="close1"></i>
+          </div>
           </div>
 
         <div class="menu">
@@ -141,7 +142,7 @@
 
             
             const icon = document.querySelector(".burger");
-            const nav = document.querySelector(".menu");
+            const nav = document.querySelector("nav");
             icon.addEventListener('click',()=>{
               nav.classList.toggle("active");
             });
