@@ -264,10 +264,10 @@ footer .copyright{
 
 @media(max-width: 800px){
     .icons{
-        top: 95%;
+        display: none;
     }
     section h1{
-        font-size: 80%;
+        font-size: 100%;
     }
     footer{
         padding: 5vw 15vw;
