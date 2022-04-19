@@ -973,10 +973,14 @@ footer .copyright {
 
 @media (max-width: 800px) {
     .neon{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         font-size: 16px;
     }
   .whiteGreen {
-    font-size: 75%;
+    font-size: 65%;
     height: 75%;
   }
   .gradientBackgroundButton {
@@ -991,6 +995,7 @@ footer .copyright {
     height: 20vh;
     font-size: 2rem;
     padding: 1rem;
+    margin-top: 15px;
   }
   .products::before {
     bottom: -10%;
