@@ -997,17 +997,32 @@ footer .copyright {
       display: none;
   }
   .rightSide{
-      width: 100%;
+      visibility: hidden;
+      display:none;
+      width: 200%;
+  }
+  .extraSignUp{
+      display: none;
   }
   .signUp{
+      display: none;
       width: 90%;
       /* display: flex;
       flex-direction: column; */
   }
-  .upper, .Mid{
+  .main.upper, .main.Mid{
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
       gap: 10px;
+      height: 100%;
+    }
+    .main.Mid{
+    margin: 0px auto;
+    }
+  .foldButton{
+      height: 150%;
   }
   .clipMain {
     height: 30vh;

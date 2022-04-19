@@ -35,7 +35,7 @@
 
   <body>
     <header>
-      <nav>
+      <nav class="header active">
         <div class="logo">
           <h1><a href="index.html">CodeLady</a></h1>
           <div class="burger">
@@ -141,7 +141,7 @@
 
             
             const icon = document.querySelector(".burger");
-            const nav = document.querySelector(".menu");
+            const nav = document.querySelector(".header");
             icon.addEventListener('click',()=>{
               nav.classList.toggle("active");
             });
