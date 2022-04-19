@@ -263,6 +263,9 @@ footer .copyright{
 }
 
 @media(max-width: 800px){
+    .icons{
+        display: none;
+    }
     section{
         font-size: 80%;
     }
