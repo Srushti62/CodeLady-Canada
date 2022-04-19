@@ -972,6 +972,10 @@ footer .copyright {
 }
 
 @media (max-width: 800px) {
+    .main{
+        height: 100%;
+        margin: 20px auto;
+    }
     .neon{
         margin-top: 25px;
         display: flex;
@@ -985,6 +989,10 @@ footer .copyright {
   }
   .gradientBackgroundButton {
     animation: gradi 4s linear infinite;
+  }
+  .signUp{
+      display: flex;
+      flex-direction: column;
   }
   .clipMain {
     height: 30vh;
