@@ -975,6 +975,12 @@ footer .copyright{
         font-size: 2rem;
         padding: 1rem;
     }
+    .products::before{
+    bottom:-14%;
+    }
+    .products::after{
+    bottom: -15%;
+    }
     footer{
         padding: 5vw 15vw;
     }
