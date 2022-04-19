@@ -983,6 +983,9 @@ footer .copyright {
         gap: 10px;
         font-size: 16px;
     }
+    .glassLogin1{
+        width: 60%;
+    }
   .whiteGreen {
     font-size: 65%;
     height: 75%;
