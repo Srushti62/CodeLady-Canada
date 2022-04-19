@@ -964,6 +964,8 @@ footer .copyright{
 @media (max-width: 800px){
     .clipMain{
         height: 30vh;
+        outline: 2px solid white;    
+        outline-offset: 2px;
     }
     .thanks{
         height: 30vh;
