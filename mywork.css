@@ -993,10 +993,10 @@ footer .copyright {
     padding: 1rem;
   }
   .products::before {
-    bottom: -14%;
+    bottom: -10%;
   }
   .products::after {
-    bottom: -15%;
+    bottom: -10%;
   }
   footer {
     padding: 5vw 15vw;
