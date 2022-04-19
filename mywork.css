@@ -993,9 +993,16 @@ footer .copyright {
   .gradientBackgroundButton {
     animation: gradi 4s linear infinite;
   }
+  .leftSide{
+      display: none;
+  }
+  .rightSide{
+      width: 100%;
+  }
   .signUp{
-      display: flex;
-      flex-direction: column;
+      width: 90%;
+      /* display: flex;
+      flex-direction: column; */
   }
   .clipMain {
     height: 30vh;
