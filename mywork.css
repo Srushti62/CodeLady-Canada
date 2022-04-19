@@ -1004,6 +1004,11 @@ footer .copyright {
       /* display: flex;
       flex-direction: column; */
   }
+  .upper, .Mid{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
   .clipMain {
     height: 30vh;
     outline: 2px solid white;
