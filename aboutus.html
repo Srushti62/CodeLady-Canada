@@ -138,6 +138,13 @@
               backSpeed: 10,
               loop: true,
             });
+
+            
+            const icon = document.querySelector(".burger");
+            const nav = document.querySelector(".menu");
+            icon.addEventListener('click',()=>{
+              nav.classList.toggle("active");
+            });
           </script>
         </div>
       <footer>
