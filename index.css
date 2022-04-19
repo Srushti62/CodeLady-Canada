@@ -266,7 +266,7 @@ footer .copyright{
     .icons{
         display: none;
     }
-    section{
+    section h1,h3,p,a{
         font-size: 50%;
     }
     footer{
