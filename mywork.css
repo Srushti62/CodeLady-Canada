@@ -960,3 +960,9 @@ footer .copyright{
     color: transparent;
     -webkit-background-clip: text;
 }
+
+@media (max-width: 800px){
+    .clipMain{
+        height: 50vh;
+    }
+}
