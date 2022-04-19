@@ -965,4 +965,10 @@ footer .copyright{
     .clipMain{
         height: 30vh;
     }
+    .thanks{
+        height: 30vh;
+    }
+    footer{
+        padding: 5vw 15vw;
+    }
 }
