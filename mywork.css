@@ -918,7 +918,7 @@ nav .menu a:hover::before{
     text-align: center;
     letter-spacing: 5px;
     position: relative;
-    font-size: 60px; 
+    font-size: 3.75rem; 
 }
 
 .products::before{
@@ -967,9 +967,13 @@ footer .copyright{
         outline: 2px solid white;    
         outline-offset: 2px;
     }
-    .thanks{
-        height: 30vh;
+    .products{
+        height: 10vh;
+        font-size: 2rem;
+        padding: 1rem;
     }
+
+
     footer{
         padding: 5vw 15vw;
     }
