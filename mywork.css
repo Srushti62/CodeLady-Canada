@@ -894,7 +894,7 @@ nav .menu a:hover::before {
   cursor: pointer;
   width: 78%;
   margin: auto;
-  font-size: 2vw;
+  font-size: 2.8vw;
   height: 5vh;
 }
 
@@ -929,7 +929,7 @@ nav .menu a:hover::before {
   text-align: center;
   letter-spacing: 5px;
   position: relative;
-  font-size: 3.75vw;
+  font-size: 5vw;
 }
 
 .products::before {
