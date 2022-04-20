@@ -329,12 +329,8 @@ footer .copyright{
     .gridImage, .container{
         background-size: 100% 100%;
     }
-    /* .grid{
-        width: 80%;
-        margin: auto;
-        display: grid;
-        place-content: center;
-        grid-template-columns: repeat(2,15rem);
-        grid-template-rows: repeat(2,15rem);
-    } */
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
 }
