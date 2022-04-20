@@ -6,6 +6,10 @@
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 header {
   background-color: black;
 }
@@ -988,8 +992,12 @@ footer .copyright {
       outline: 2px solid white;
       outline-offset: 2px;
     }
+    .container .signUp {
+        width: 90%;
+    }
     .extraSignUp button {
-        width: 3rem;
+        width: 4rem;
+        line-height: 10%;
     }
     .glassLogin1{
         width: 70%;
