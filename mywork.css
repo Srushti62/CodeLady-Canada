@@ -994,6 +994,7 @@ footer .copyright {
     }
     .container .signUp {
         width: 90%;
+        height: 110%;
     }
     .extraSignUp button {
         width: 4rem;
