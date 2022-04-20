@@ -7,6 +7,7 @@
 
 html{
     height: 100%;
+    font-size: 62.5%;
 }
 
 body{
@@ -27,17 +28,17 @@ nav{
     display: block;
     background-color: rgba(10, 10, 10, 1);
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 nav .logo{
     width: 100%;
     height: 6vh;
-    font-size: 18px;
+    font-size: 1.8rem;
     background-color: rgba(10, 10, 10, 1);
     text-align: center;
     font-weight: 900;
-    padding-top: 3px;
+    padding-top: .3rem;
 }
 
 nav .logo h1 a{
@@ -45,21 +46,21 @@ nav .logo h1 a{
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    text-shadow: .2rem .2rem .2rem rgba(0,0,0,0.4);
     text-decoration: none;
 }
 
 nav .logo h1 a::after{
     content: "CANADA";
-    font-size: 9px;
+    font-size: .9rem;
     background: linear-gradient(45deg,orange, red);
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    text-shadow: .2rem .2rem .2rem rgba(0,0,0,0.4);
 }
 nav .menu{
-    border-top: 1px solid white;
+    border-top: .1rem solid white;
     width: 50%;
     margin: auto;
     height: 6vh;
@@ -72,13 +73,13 @@ nav .menu{
 nav .menu a{
     text-decoration: none;
     position: relative;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
     background: linear-gradient(45deg,orange, red);
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+    text-shadow: .2rem .2rem .2rem rgba(0,0,0,0.25);
 }
 
 nav .menu a:nth-child(3){
@@ -94,7 +95,7 @@ nav .menu a::before{
     left: 0;
     top: 120%;
     width: 0%;
-    height: 2px;
+    height: .2rem;
     transition: all 0.5s linear;
 }
 
@@ -126,17 +127,17 @@ nav .menu a:hover::before{
 }
 
 .static{
-    font-size: 3.2em;
+    font-size: 3.2rem;
     color:red;
-    line-height: 3.2em;
+    line-height: 3.2rem;
     font-weight: 800;
 }
 
 .dynamic{
     font-weight: 700;
-    font-size: 3.2em;
+    font-size: 3.2rem;
     color: white;
-    line-height: 3.2em;
+    line-height: 3.2rem;
 }
 
 .skills{
@@ -161,29 +162,29 @@ nav .menu a:hover::before{
     margin: auto;
     display: grid;
     place-content: center;
-    grid-template-columns: repeat(4, 250px);
-    grid-template-rows: repeat(4, 120px);
-    gap: 15px;
-    padding: 20px;
-    /* margin: 20px; */
+    grid-template-columns: repeat(4, 25rem);
+    grid-template-rows: repeat(4, 12rem);
+    gap: 1.5rem;
+    padding: 2.0rem;
+    /* margin: 2.0rem; */
 }
 
 .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10,.div11,.div12,.div13,.div14,.div15,.div16{
     background-color: rgb(255, 255, 255, 0.7);
     border: none;
-    border-radius: 18px;
-    margin: 8px;
+    border-radius: 1.8rem;
+    margin: .8rem;
     display: grid;
     place-items: center;
     text-align:center;
-    padding: 15px;
+    padding: 1.5rem;
     display: inline-block;
-    box-shadow: 2px 2px 2px 2px rgb(204, 197, 197);
+    box-shadow: .2rem .2rem .2rem .2rem rgb(204, 197, 197);
     animation: light 2s ease-out 3;
 }
 
 i{
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 @keyframes light {
@@ -203,7 +204,7 @@ footer{
 footer .copyright{
     width: 100%;
     text-align: center;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 900;
     letter-spacing: 0.5px;
     background: linear-gradient(45deg,orange, red);
@@ -212,7 +213,7 @@ footer .copyright{
     -webkit-background-clip: text;
 }
 
-@media (max-width: 1355px) {
+/* @media (max-width: 1355px) {
     .grid{
         padding: 30px;
         display: grid;
@@ -227,7 +228,7 @@ footer .copyright{
         font-size: 2.8em;
         line-height: 2.8em;
     }
-}
+} 
 @media (max-width: 1176px) {
     .grid{
         padding: 30px;
@@ -325,4 +326,9 @@ footer .copyright{
     footer{
         padding: 5vw 15vw;
     }
+} */
+@media (max-width: 800px) {
+html{
+    font-size: 45%;
+}
 }

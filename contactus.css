@@ -8,6 +8,7 @@
 
 html{
     height: 100%;
+    font: 62.5%;
 }
 
 body{
@@ -27,17 +28,17 @@ nav{
     display: block;
     background-color: rgba(10, 10, 10, 1);
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 nav .logo{
     width: 100%;
     height: 6vh;
-    font-size: 18px;
+    font-size: 1.8rem;
     background-color: rgba(10, 10, 10, 1);
     text-align: center;
     font-weight: 900;
-    padding-top: 3px;
+    padding-top: 0.3rem;
 }
 
 nav .logo h1 a{
@@ -45,24 +46,23 @@ nav .logo h1 a{
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    text-shadow: .2rem .2rem .2rem rgba(0,0,0,0.4);
     text-decoration: none;
 }
 
 nav .logo h1 a::after{
     content: "CANADA";
-    font-size: 9px;
+    font-size: .9rem;
     background: linear-gradient(45deg,orange, red);
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    text-shadow: .2rem .2rem .2rem rgba(0,0,0,0.4);
 }
 nav .menu{
-    border-top: 1px solid white;
+    border-top: .1rem solid white;
     width: 50%;
     margin: auto;
-    /* margin-top: 4px; */
     height: 6vh;
     text-align: center;
     display: flex;
@@ -73,13 +73,13 @@ nav .menu{
 nav .menu a{
     text-decoration: none;
     position: relative;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
     background: linear-gradient(45deg,orange, red);
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+    text-shadow: .2rem .2rem .2rem rgba(0,0,0,0.25);
 }
 
 nav .menu a:nth-child(4){
@@ -95,7 +95,7 @@ nav .menu a::before{
     left: 0;
     top: 120%;
     width: 0%;
-    height: 2px;
+    height: .2rem;
     transition: all 0.5s linear;
 }
 
@@ -107,7 +107,7 @@ nav .menu a:hover::before{
 .container{
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 1rem;
     outline:none;
     animation: changeBg 15s infinite linear;
 }
@@ -125,14 +125,14 @@ nav .menu a:hover::before{
 
 .map{
     flex: 100%;
-    margin-top: 10px;
+    margin-top: 1rem;
     background-color: rgba(0,0,0,0.3);
-    box-shadow: 0px -1px 2px 2px rgba(0,0,0,0.3);
+    box-shadow: 0rem -.1rem .2rem .2rem rgba(0,0,0,0.3);
 }
 
 .contactForm{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 3rem;
     height: auto;
     display: flex;
     justify-content: center;
@@ -140,40 +140,40 @@ nav .menu a:hover::before{
     flex-wrap: wrap;
     flex: 40%;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 .contactForm h1{
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     width: 100%;
     text-align: center;
     color: black;
-    text-shadow: 1px 1px 2px gray;
+    text-shadow: .1rem .1rem .2rem gray;
 }
 
 .contactForm .txt{
-    height: 40px;
+    height: 4rem;
     width: 100%;
-    padding: 10px;
+    padding: 1rem;
     color:black;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     border:none;
-    border-radius: 20px;
+    border-radius: 2rem;
     outline:none;
     text-align: center;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: .3rem .3rem .3rem black;
 }
 
 .contactForm .txtarea{
     border:none;
-    height: 120px;
+    height: 12rem;
     width: 100%;
     color:black;
-    border-radius: 30px;
+    border-radius: 3rem;
     outline:none;
-    margin-bottom: 20px;
-    padding: 10px;
-    box-shadow: 3px 3px 3px black;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: .3rem .3rem .3rem black;
     text-align: center;
 }
 
@@ -184,21 +184,21 @@ nav .menu a:hover::before{
 .contactForm .txtarea::placeholder{
     text-align: center;
     font-weight: bold;
-    line-height: 90px;
+    line-height: 9rem;
 }
 
 .contactForm .btn{
     width: 40%;
     color: rgba(173, 255, 47, 1);
-    font-size: 18px;
+    font-size: 1.8rem;
     background-color: black;
     font-weight: 900;
-    border-radius: 40px;
-    padding: 15px;
+    border-radius: 4rem;
+    padding: 1.5rem;
     border: none;
     cursor: pointer;
     text-transform: uppercase;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: .3rem .3rem .3rem black;
 }
 
 footer{
@@ -212,7 +212,7 @@ footer{
 footer .copyright{
     width: 100%;
     text-align: center;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 900;
     letter-spacing: 0.5px;
     background: linear-gradient(45deg,orange, red);
@@ -221,11 +221,11 @@ footer .copyright{
     -webkit-background-clip: text;
 }
 
-@media (max-width: 800px){
+/* @media (max-width: 800px){
     .container{
         padding: 3vh 5vw;
     }
 footer{
     padding: 5vw 15vw;
 }
-}
+} */
