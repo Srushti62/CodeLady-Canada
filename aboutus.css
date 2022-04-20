@@ -180,7 +180,7 @@ nav .menu a:hover::before{
     padding: 1.5rem;
     display: inline-block;
     box-shadow: .2rem .2rem .2rem .2rem rgb(204, 197, 197);
-    animation: light 2s ease-out 3;
+    animation: light 2s ease-out 1;
 }
 
 i{
