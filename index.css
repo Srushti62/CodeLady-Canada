@@ -262,16 +262,16 @@ footer .copyright{
     -webkit-background-clip: text;
 }
 
-@media(max-width: 800px){
-    /* .icons{
-        display: none;
-    }
-    section h1{
-        font-size: 100%;
-    }
-    footer{
-        padding: 5vw 15vw;
+/* .icons{
+    display: none;
+}
+section h1{
+    font-size: 100%;
+}
+footer{
+    padding: 5vw 15vw;
 } */
+@media(max-width: 800px){
 html{
     font-size: 45%;
 }
