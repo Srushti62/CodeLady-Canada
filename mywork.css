@@ -981,11 +981,17 @@ footer .copyright {
      html{
          font-size: 45%;
      }
+     nav .logo{
+        padding-top: 1.8rem;
+    }
      nav .menu{
         width: 80%;
     }
     .gradientBackgroundButton {
         animation: gradi 4s linear infinite;
+    }
+    .neon{
+        display: flex;
     }
     .clipMain {
       height: 30rem;

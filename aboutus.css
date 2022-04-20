@@ -313,6 +313,9 @@ footer .copyright{
     html{
         font-size: 45%;
     }
+    nav .logo{
+        padding-top: 1.8rem;
+    }
     nav .menu{
         width: 80%;
     }
