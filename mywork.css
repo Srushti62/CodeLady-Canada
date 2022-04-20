@@ -977,6 +977,23 @@ footer .copyright {
      html{
          font-size: 45%;
      }
+     nav .menu{
+        width: 80%;
+    }
+    .gradientBackgroundButton {
+        animation: gradi 4s linear infinite;
+    }
+    .clipMain {
+      height: 30rem;
+      outline: 2px solid white;
+      outline-offset: 2px;
+    }
+    .extraSignUp button {
+        width: 4rem;
+    }
+    .glassLogin1{
+        width: 75%;
+    }
     }
 /*    .main{
         height: 100%;
@@ -989,12 +1006,6 @@ footer .copyright {
         gap: 10px;
         font-size: 16px;
     }
-    .glassLogin1{
-        width: 80%;
-    }
-  .gradientBackgroundButton {
-    animation: gradi 4s linear infinite;
-  }
   .container .signUp{
       display:none;
   }
@@ -1011,11 +1022,6 @@ footer .copyright {
     }
   .foldButton{
       height: 150%;
-  }
-  .clipMain {
-    height: 30vh;
-    outline: 2px solid white;
-    outline-offset: 2px;
   }
   footer {
     padding: 5vw 15vw;

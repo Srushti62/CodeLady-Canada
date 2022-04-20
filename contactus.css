@@ -233,4 +233,7 @@ footer{
     html{
         font-size: 45%;
     }
+    nav .menu{
+        width: 80%;
+    }
     }
