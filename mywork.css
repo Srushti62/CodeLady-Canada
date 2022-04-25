@@ -6,8 +6,8 @@
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
 header {
@@ -31,7 +31,7 @@ nav .logo {
   background-color: rgba(10, 10, 10, 1);
   text-align: center;
   font-weight: 900;
-  padding-top: .3rem;
+  padding-top: 0.3rem;
 }
 
 nav .logo h1 a {
@@ -39,21 +39,21 @@ nav .logo h1 a {
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
-  text-shadow: .2rem .2rem .2rem rgba(0, 0, 0, 0.4);
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
   text-decoration: none;
 }
 
 nav .logo h1 a::after {
   content: "CANADA";
-  font-size: .9rem;
+  font-size: 0.9rem;
   background: linear-gradient(45deg, orange, red);
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
-  text-shadow: .2rem .2rem .2rem rgba(0, 0, 0, 0.4);
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
 }
 nav .menu {
-  border-top: .1rem solid white;
+  border-top: 0.1rem solid white;
   width: 50%;
   margin: auto;
   height: 6vh;
@@ -72,7 +72,7 @@ nav .menu a {
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
-  text-shadow: .2rem .2rem .2rem rgba(0, 0, 0, 0.25);
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.25);
 }
 
 nav .menu a:nth-child(2) {
@@ -88,7 +88,7 @@ nav .menu a::before {
   left: 0;
   top: 120%;
   width: 0%;
-  height: .2rem;
+  height: 0.2rem;
   transition: all 0.5s linear;
 }
 
@@ -100,14 +100,14 @@ nav .menu a:hover::before {
 .container {
   background-color: black;
   text-align: center;
-  margin-top: 1.0rem;
+  margin-top: 1rem;
 }
 
 .container .main {
   width: 100%;
-  height: 15.0rem;
+  height: 15rem;
   text-align: center;
-  padding: 2.0rem;
+  padding: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -116,14 +116,14 @@ nav .menu a:hover::before {
 }
 
 .upper {
-  margin-top: 3.0rem;
+  margin-top: 3rem;
 }
 
 .container .Mid {
   width: 75%;
-  height: 15.0rem;
+  height: 15rem;
   text-align: center;
-  padding: 2.0rem;
+  padding: 2rem;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -132,9 +132,9 @@ nav .menu a:hover::before {
 
 .container .signUp {
   width: 70%;
-  height: 60.0rem;
+  height: 60rem;
   display: flex;
-  margin: 4.0rem auto 0 auto;
+  margin: 4rem auto 0 auto;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -145,7 +145,7 @@ nav .menu a:hover::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 .8rem .8rem orangered;
+  box-shadow: 0 0 0.8rem 0.8rem orangered;
 }
 
 .signUp .leftSide {
@@ -159,7 +159,7 @@ nav .menu a:hover::before {
   width: 95%;
   margin: auto;
   background-color: rgb(255, 137, 94);
-  padding: 3.0rem;
+  padding: 3rem;
   margin-top: 1.5rem;
 }
 
@@ -167,7 +167,7 @@ nav .menu a:hover::before {
   width: 50%;
   height: 100%;
   background-color: rgb(32, 31, 31);
-  padding: 1.5rem 2.0rem;
+  padding: 1.5rem 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,16 +176,16 @@ nav .menu a:hover::before {
 
 .rightSide h1 {
   font-size: 3.5rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-family: "Source Sans Pro", sans-serif;
   color: white;
 }
 
 .rightSide form label {
-  font-size: 2.0rem;
+  font-size: 2rem;
   display: block;
-  margin-top: .1rem;
-  padding: 1.0rem 2.0rem 1.0rem 2.0rem;
+  margin-top: 0.1rem;
+  padding: 1rem 2rem 1rem 2rem;
   text-align: left;
   font-weight: 800;
   font-family: "Source Sans Pro", sans-serif;
@@ -197,16 +197,16 @@ nav .menu a:hover::before {
   width: 90%;
   display: block;
   margin: auto;
-  margin-top: .0rem;
-  padding: 1.0rem 3.0rem 1.0rem 2.0rem;
+  margin-top: 0rem;
+  padding: 1rem 3rem 1rem 2rem;
   text-align: left;
   border: none;
   font-family: "Source Sans Pro", sans-serif;
-  padding: 1.0rem;
+  padding: 1rem;
 }
 
 .rightSide form input:focus {
-  outline: .1rem solid black;
+  outline: 0.1rem solid black;
 }
 .rightSide form input::placeholder {
   font-size: 1.6rem;
@@ -220,12 +220,12 @@ nav .menu a:hover::before {
   width: 90%;
   color: white;
   text-align: center;
-  margin: 1.5rem auto .0rem auto;
+  margin: 1.5rem auto 0rem auto;
   letter-spacing: 1.5px;
   border: none;
   background-color: rgba(0, 0, 0, 0.85);
   cursor: pointer;
-  box-shadow: .2rem .2rem .1rem gray;
+  box-shadow: 0.2rem 0.2rem 0.1rem gray;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 900;
 }
@@ -233,16 +233,16 @@ nav .menu a:hover::before {
 .extraSignUp {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
-  margin-top: 1.0rem;
+  margin-top: 1rem;
   line-height: 2.5rem;
   color: white;
 }
 
 .extraSignUp button {
   font-family: "Source Sans Pro", sans-serif;
-  width: 12.0rem;
-  padding: .8rem;
-  margin: 1.5rem .8rem;
+  width: 12rem;
+  padding: 0.8rem;
+  margin: 1.5rem 0.8rem;
   font-size: 1.4rem;
   line-height: 1.6rem;
   text-align: center;
@@ -253,7 +253,7 @@ nav .menu a:hover::before {
 .extraSignUp p,
 .extraSignUp h3 {
   font-family: "Source Sans Pro", sans-serif;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: 900;
 }
 
@@ -270,8 +270,8 @@ nav .menu a:hover::before {
 .clipMain {
   position: relative;
   width: 70%;
-  height: 50.0rem;
-  margin: 7.0rem auto;
+  height: 55rem;
+  margin: 7rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,14 +313,14 @@ nav .menu a:hover::before {
 
 .glassLogin1 {
   width: 30%;
-  height: 60.0rem;
-  text-shadow: .1rem .1rem black;
+  height: 60rem;
+  text-shadow: 0.1rem 0.1rem black;
   background: url("Images/Login.avif");
   background-size: 100% 100%;
   border-radius: 4.5rem;
-  padding: 4.0rem;
-  box-shadow: .2rem -.2rem 1.0rem gray;
-  margin: 5.0rem auto;
+  padding: 4rem;
+  box-shadow: 0.2rem -0.2rem 1rem gray;
+  margin: 5rem auto;
   color: silver;
   font-weight: 800;
   font-family: "Be Vietnam Pro", sans-serif;
@@ -328,21 +328,21 @@ nav .menu a:hover::before {
 
 .glassLogin1 h1 {
   display: block;
-  font-size: 4.0rem;
-  text-shadow: 1.0rem 1.0rem 2.5rem black;
+  font-size: 4rem;
+  text-shadow: 1rem 1rem 2.5rem black;
 }
 
 .glassLogin1 form input {
   font-size: 1.6rem;
-  line-height: 2.0rem;
+  line-height: 2rem;
   width: 80%;
   display: block;
-  margin: 3.0rem auto;
+  margin: 3rem auto;
   text-align: left;
-  border-radius: 2.0rem;
-  padding: 1.0rem;
+  border-radius: 2rem;
+  padding: 1rem;
   background: transparent;
-  border: .2rem solid silver;
+  border: 0.2rem solid silver;
   color: silver;
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 800;
@@ -364,7 +364,7 @@ nav .menu a:hover::before {
 
 .glassLogin1 form .remember {
   display: inline-flex;
-  width: 14.0rem;
+  width: 14rem;
   height: 2.5rem;
   align-items: center;
   font-size: 1.6rem;
@@ -376,35 +376,39 @@ nav .menu a:hover::before {
 
 .glassLogin1 form .glassSubmit1 {
   width: 80%;
-  font-size: 2.0rem;
-  line-height: 2.0rem;
+  font-size: 2rem;
+  line-height: 2rem;
   text-align: center;
-  padding: 1.0rem;
-  margin: 1.0rem auto;
+  padding: 1rem;
+  margin: 1rem auto;
   color: white;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   border: none;
-  border-radius: 2.0rem;
+  border-radius: 2rem;
   background-color: orangered;
   cursor: pointer;
-  box-shadow: .1rem .1rem .1rem .1rem silver;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem silver;
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 900;
 }
 
 .glassLogin1 form h4 {
-  margin: 8.0rem;
+  margin: 8rem;
   cursor: pointer;
+}
+
+.neon{
+  display: flex;
 }
 
 .neon a {
   position: relative;
-  padding: 1.0rem 3.0rem;
+  padding: 1rem 3rem;
   margin: 0 2.5rem;
   color: cyan;
   text-decoration: none;
-  letter-spacing: .2rem;
-  font-size: 2.0rem;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
   transition: 0.5s;
   overflow: hidden;
 }
@@ -414,10 +418,10 @@ nav .menu a:hover::before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1.0rem;
-  height: 1.0rem;
-  border-top: .2rem solid cyan;
-  border-left: .2rem solid cyan;
+  width: 1rem;
+  height: 1rem;
+  border-top: 0.2rem solid cyan;
+  border-left: 0.2rem solid cyan;
   transition: 0.5s;
   overflow: hidden;
 }
@@ -431,7 +435,7 @@ nav .menu a:hover::before {
 .neon a:hover {
   background: cyan;
   color: black;
-  box-shadow: 0 0 3.0rem cyan;
+  box-shadow: 0 0 3rem cyan;
   transition-delay: 0.4s;
   overflow: hidden;
   font-weight: 700;
@@ -442,10 +446,10 @@ nav .menu a:hover::before {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 1.0rem;
-  height: 1.0rem;
-  border-bottom: .2rem solid cyan;
-  border-right: .2rem solid cyan;
+  width: 1rem;
+  height: 1rem;
+  border-bottom: 0.2rem solid cyan;
+  border-right: 0.2rem solid cyan;
   transition: 0.5s;
   overflow: hidden;
 }
@@ -466,32 +470,32 @@ nav .menu a:hover::before {
 
 .twoCornerBorderButton {
   position: relative;
-  width: 15.0rem;
-  height: 6.0rem;
-  line-height: 6.0rem;
-  letter-spacing: .2rem;
+  width: 15rem;
+  height: 6rem;
+  line-height: 6rem;
+  letter-spacing: 0.2rem;
   transition: 0.5s;
   background-color: rgb(70, 70, 184);
   color: white;
   text-decoration: none;
-  font-size: 2.0rem;
+  font-size: 2rem;
   border: none;
   font-weight: 900;
 }
 
 .twoCornerBorderButton:hover {
-  box-shadow: .0rem .0rem .2rem .2rem rgb(156, 138, 138);
+  box-shadow: 0rem 0rem 0.2rem 0.2rem rgb(156, 138, 138);
 }
 
 .twoCornerBorderButton::before {
   content: "";
   position: absolute;
-  left: -1.0rem;
-  top: -1.0rem;
-  width: 2.0rem;
-  height: 2.0rem;
-  border-top: .2rem solid rgb(70, 70, 184);
-  border-left: .2rem solid rgb(70, 70, 184);
+  left: -1rem;
+  top: -1rem;
+  width: 2rem;
+  height: 2rem;
+  border-top: 0.2rem solid rgb(70, 70, 184);
+  border-left: 0.2rem solid rgb(70, 70, 184);
   transition: all 0.5s linear;
 }
 
@@ -505,49 +509,49 @@ nav .menu a:hover::before {
 .twoCornerBorderButton::after {
   content: "";
   position: absolute;
-  right: -1.0rem;
-  bottom: -1.0rem;
-  width: 2.0rem;
-  height: 2.0rem;
-  border-right: .2rem solid rgb(70, 70, 184);
-  border-bottom: .2rem solid rgb(70, 70, 184);
+  right: -1rem;
+  bottom: -1rem;
+  width: 2rem;
+  height: 2rem;
+  border-right: 0.2rem solid rgb(70, 70, 184);
+  border-bottom: 0.2rem solid rgb(70, 70, 184);
   transition: all 0.5s linear;
 }
 
 .clipDiv {
-  margin: 3.0rem auto;
+  margin: 3rem auto;
 }
 
 .clipButton {
   position: relative;
-  width: 25.0rem;
-  height: 10.0rem;
-  line-height: 10.0rem;
-  letter-spacing: .2rem;
+  width: 25rem;
+  height: 10rem;
+  line-height: 10rem;
+  letter-spacing: 0.2rem;
   transition: 0.5s;
   background-color: rgb(70, 70, 184);
   color: white;
   text-decoration: none;
-  font-size: 3.0rem;
+  font-size: 3rem;
   border: none;
   font-weight: 900;
   clip-path: ellipse(5% 50% at 50% 50%);
 }
 
 .clipButton:hover {
-  box-shadow: .0rem .0rem .2rem .2rem rgb(156, 138, 138);
+  box-shadow: 0rem 0rem 0.2rem 0.2rem rgb(156, 138, 138);
   clip-path: circle(150% at 100% 0);
 }
 
 .clipButton::before {
   content: "";
   position: absolute;
-  left: -1.0rem;
-  top: -1.0rem;
-  width: 2.0rem;
-  height: 2.0rem;
-  border-top: .2rem solid rgb(70, 70, 184);
-  border-left: .2rem solid rgb(70, 70, 184);
+  left: -1rem;
+  top: -1rem;
+  width: 2rem;
+  height: 2rem;
+  border-top: 0.2rem solid rgb(70, 70, 184);
+  border-left: 0.2rem solid rgb(70, 70, 184);
   transition: all 0.5s linear;
 }
 
@@ -561,27 +565,27 @@ nav .menu a:hover::before {
 .clipButton::after {
   content: "";
   position: absolute;
-  right: -1.0rem;
-  bottom: -1.0rem;
-  width: 2.0rem;
-  height: 2.0rem;
-  border-right: .2rem solid rgb(70, 70, 184);
-  border-bottom: .2rem solid rgb(70, 70, 184);
+  right: -1rem;
+  bottom: -1rem;
+  width: 2rem;
+  height: 2rem;
+  border-right: 0.2rem solid rgb(70, 70, 184);
+  border-bottom: 0.2rem solid rgb(70, 70, 184);
   transition: all 0.5s linear;
 }
 
 .fallenBrickButton {
   position: relative;
-  width: 15.0rem;
-  height: 6.0rem;
-  line-height: 6.0rem;
-  letter-spacing: .2rem;
+  width: 15rem;
+  height: 6rem;
+  line-height: 6rem;
+  letter-spacing: 0.2rem;
   transition: all 0.5s linear;
   background-color: black;
   color: white;
-  border: .2rem solid white;
+  border: 0.2rem solid white;
   text-decoration: none;
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: 900;
   overflow: hidden;
   z-index: 1;
@@ -612,16 +616,16 @@ nav .menu a:hover::before {
 
 .leftToRightButton {
   position: relative;
-  width: 15.0rem;
-  height: 6.0rem;
-  line-height: 6.0rem;
-  letter-spacing: .2rem;
+  width: 15rem;
+  height: 6rem;
+  line-height: 6rem;
+  letter-spacing: 0.2rem;
   transition: all 0.5s linear;
   background-color: yellowgreen;
   color: white;
-  border: .2rem solid white;
+  border: 0.2rem solid white;
   text-decoration: none;
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: 900;
   overflow: hidden;
   z-index: 1;
@@ -651,28 +655,28 @@ nav .menu a:hover::before {
 
 .progressiveButton {
   position: relative;
-  width: 15.0rem;
-  height: 6.0rem;
-  line-height: 6.0rem;
+  width: 15rem;
+  height: 6rem;
+  line-height: 6rem;
   background-color: red;
   text-decoration: none;
   text-align: center;
-  border: .2rem solid red;
-  letter-spacing: .2rem;
+  border: 0.2rem solid red;
+  letter-spacing: 0.2rem;
   transition: 0.5s;
   color: white;
-  font-size: 2.0rem;
+  font-size: 2rem;
 }
 
 .progressiveButton::before {
   content: "";
   position: absolute;
-  top: -.2rem;
-  left: -.2rem;
+  top: -0.2rem;
+  left: -0.2rem;
   width: 0;
   height: 0;
   background: transparent;
-  border: .2rem solid transparent;
+  border: 0.2rem solid transparent;
 }
 
 .progressiveButton:hover:before {
@@ -708,12 +712,12 @@ nav .menu a:hover::before {
 .progressiveButton::after {
   content: "";
   position: absolute;
-  top: -.2rem;
-  left: -.2rem;
+  top: -0.2rem;
+  left: -0.2rem;
   width: 0;
   height: 0;
   background: transparent;
-  border: .2rem solid transparent;
+  border: 0.2rem solid transparent;
 }
 
 .progressiveButton:hover:after {
@@ -750,20 +754,20 @@ nav .menu a:hover::before {
 
 .boxShadowButton {
   position: relative;
-  width: 15.0rem;
-  height: 6.0rem;
-  line-height: 6.0rem;
+  width: 15rem;
+  height: 6rem;
+  line-height: 6rem;
   background-color: rgb(50, 50, 207);
   text-decoration: none;
   text-align: center;
-  border-radius: .5rem;
-  letter-spacing: .2rem;
-  font-size: 2.0rem;
+  border-radius: 0.5rem;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
   color: white;
 }
 
 .boxShadowButton:hover {
-  box-shadow: 0 0 .2rem .2rem white;
+  box-shadow: 0 0 0.2rem 0.2rem white;
   background-color: rgba(50, 50, 207, 0.5);
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -771,14 +775,14 @@ nav .menu a:hover::before {
 
 .foldButton {
   position: relative;
-  width: 15.0rem;
-  height: 6.0rem;
-  line-height: 6.0rem;
+  width: 15rem;
+  height: 6rem;
+  line-height: 6rem;
   background-color: red;
   text-decoration: none;
   text-align: center;
-  letter-spacing: .2rem;
-  font-size: 2.0rem;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
   color: white;
   overflow: hidden;
 }
@@ -796,14 +800,14 @@ nav .menu a:hover::before {
 
 .normalHoverButton {
   position: relative;
-  width: 15.0rem;
-  height: 6.0rem;
-  line-height: 6.0rem;
+  width: 15rem;
+  height: 6rem;
+  line-height: 6rem;
   background-color: yellowgreen;
   text-decoration: none;
   text-align: center;
-  letter-spacing: .2rem;
-  font-size: 2.0rem;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
   font-weight: 900;
   color: black;
   z-index: 1;
@@ -835,7 +839,7 @@ nav .menu a:hover::before {
 }
 
 .gradientBackgroundButton {
-  width: 120.0rem;
+  width: 120rem;
   background-image: linear-gradient(
     115deg,
     red,
@@ -852,41 +856,41 @@ nav .menu a:hover::before {
   background-color: yellow;
   text-decoration: none;
   display: block;
-  border-radius: .6rem;
-  letter-spacing: .2rem;
+  border-radius: 0.6rem;
+  letter-spacing: 0.2rem;
   transition: 0.5s;
-  font-size: 2.0rem;
+  font-size: 2rem;
   overflow: hidden;
   animation: gradi 1.5s linear infinite;
   cursor: auto;
 }
 
 .gradientBackgroundButton span {
-  margin: .3rem;
+  margin: 0.3rem;
   display: block;
   background: black;
   padding: 1.4rem 0;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
 @keyframes gradi {
   0% {
-    background-position: .0rem;
+    background-position: 0rem;
   }
   20% {
-    background-position: -24.0rem;
+    background-position: -24rem;
   }
   40% {
-    background-position: -48.0rem;
+    background-position: -48rem;
   }
   60% {
-    background-position: -72.0rem;
+    background-position: -72rem;
   }
   80% {
-    background-position: -96.0rem;
+    background-position: -96rem;
   }
   100% {
-    background-position: -120.0rem;
+    background-position: -120rem;
   }
 }
 
@@ -927,14 +931,14 @@ nav .menu a:hover::before {
 }
 
 .thanks {
-    margin: 3rem auto;
+  margin: 3rem auto;
 }
 
 .products {
   font-family: "Comforter", cursive;
   color: white;
   text-align: center;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
   position: relative;
   font-size: 5vw;
 }
@@ -943,7 +947,7 @@ nav .menu a:hover::before {
   content: "";
   position: absolute;
   width: 20vw;
-  border-bottom: .5rem solid orangered;
+  border-bottom: 0.5rem solid orangered;
   top: -28%;
   left: 50%;
   transform: translateX(-50%);
@@ -953,7 +957,7 @@ nav .menu a:hover::before {
   content: "";
   position: absolute;
   width: 20vw;
-  border-bottom: .5rem solid orangered;
+  border-bottom: 0.5rem solid orangered;
   bottom: -30%;
   left: 50%;
   transform: translateX(-50%);
@@ -979,72 +983,47 @@ footer .copyright {
   -webkit-background-clip: text;
 }
 
- @media (max-width: 800px) {
-     html{
-         font-size: 45%;
-     }
-     nav .logo{
-        padding-top: 1.8rem;
-    }
-     nav .menu{
-        width: 80%;
-    }
-    .gradientBackgroundButton {
-        animation: gradi 4s linear infinite;
-    }
-    .neon{
-        display: flex;
-    }
-    .clipMain {
-      height: 30rem;
-      outline: 2px solid white;
-      outline-offset: 2px;
-    }
-    .container .signUp {
-        width: 90%;
-        /* height: auto; */
-    }
-    .rightSide form label {
+@media (min-width: 769px) and (max-width: 1024px) {
+  html {
+    font-size: 55%;
+  }
+  nav .menu {
+    width: 65%;
+  }
+  .clipMain {
+    height: 40rem;
+    outline: 2px solid white;
+    outline-offset: 2px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+  nav .menu {
+    width: 80%;
+  }
+  .gradientBackgroundButton {
+    animation: gradi 4s linear infinite;
+  }
+  .clipMain {
+    height: 30rem;
+    outline: 2px solid white;
+    outline-offset: 2px;
+  }
+  .container .signUp {
+    width: 90%;
+  }
+  .rightSide form label {
     text-align: center;
-    }
-    .extraSignUp button {
-        width: 4rem;
-        line-height: 10%;
-        font-size: 20%;
-    }
-    .glassLogin1{
-        width: 70%;
-    }
-    }
-/*    .main{
-        height: 100%;
-        margin: 20px auto;
-    }
-    .neon{
-        margin-top: 25px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        font-size: 16px;
-    }
-  .container .signUp{
-      display:none;
   }
-  .main.upper, .main.Mid{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      height: 100%;
-    }
-    .main.Mid{
-    margin: 0px auto;
-    }
-  .foldButton{
-      height: 150%;
+  .extraSignUp button {
+    width: 4rem;
+    line-height: 10%;
+    font-size: 20%;
   }
-  footer {
-    padding: 5vw 15vw;
+  .glassLogin1 {
+    width: 50%;
   }
-} */
+}
