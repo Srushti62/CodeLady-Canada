@@ -29,6 +29,8 @@ nav{
     background-color: rgba(10, 10, 10, 1);
     font-weight: bold;
     font-size: 1.6rem;
+    display: grid;
+    place-items: center;
 }
 
 nav .logo{
@@ -38,7 +40,7 @@ nav .logo{
     background-color: rgba(10, 10, 10, 1);
     text-align: center;
     font-weight: 900;
-    padding-top: 0.3rem;
+    /* padding-top: 0.3rem; */
 }
 
 nav .logo h1 a{
@@ -221,22 +223,19 @@ footer .copyright{
     -webkit-background-clip: text;
 }
 
-/* @media (max-width: 800px){
-    .container{
-        padding: 3vh 5vw;
-    }
-footer{
-    padding: 5vw 15vw;
-}
-} */
-@media (max-width: 800px) {
+@media (max-width: 760px) {
     html{
         font-size: 45%;
     }
-    nav .logo{
+    /* nav .logo{
         padding-top: 1.8rem;
-    }
+    } */
     nav .menu{
         width: 80%;
     }
     }
+@media (max-width: 800px) {
+    html{
+        font-size: 55%;
+    }
+}
